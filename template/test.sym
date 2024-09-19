@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="test">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2024-9-19T19:42:55</timestamp>
+    <timestamp>2024-9-19T19:50:48</timestamp>
     <attr value="test" name="VeriModel" />
     <pin polarity="Input" x="0" y="-544" name="a1" />
     <pin polarity="Input" x="0" y="-480" name="a0" />

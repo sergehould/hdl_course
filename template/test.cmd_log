@@ -18,3 +18,6 @@ spl2sym -intstyle ise -family spartan3e test.spl C:/Users/houlds/Documents/Vanie
 vhdtdtfi -lang verilog -prj test -o C:/Users/houlds/Documents/Vanier/courses_C_drive/old_program/247-503-VA_Integrated_Circuits_PLDs/projects/Basys2/Labs/template/test.tfi -lib work C:/Users/houlds/Documents/Vanier/courses_C_drive/old_program/247-503-VA_Integrated_Circuits_PLDs/projects/Basys2/Labs/template//test.v -module test -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
 xst -intstyle ise -ifn "C:/Users/houlds/Documents/Vanier/courses_C_drive/old_program/247-503-VA_Integrated_Circuits_PLDs/projects/Basys2/Labs/template/test.xst" -ofn "C:/Users/houlds/Documents/Vanier/courses_C_drive/old_program/247-503-VA_Integrated_Circuits_PLDs/projects/Basys2/Labs/template/test.syr" 
 netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim test.ngc test_synthesis.v 
+vhdtdtfi -lib work C:/Users/houlds/Documents/tempo/hdl/hdl_course/template/test.v -lang verilog -prj test -o test.spl -module test -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e test.spl C:/Users/houlds/Documents/tempo/hdl/hdl_course/template/test.sym 
+xst -intstyle ise -ifn "C:/Users/houlds/Documents/tempo/hdl/hdl_course/template/test.xst" -ofn "C:/Users/houlds/Documents/tempo/hdl/hdl_course/template/test.syr" 
