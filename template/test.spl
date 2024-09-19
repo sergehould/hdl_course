@@ -1,0 +1,9 @@
+[Inputs]
+a1
+a0
+[Outputs]
+out1
+[BiDir]
+[ATTRIBUTES]
+VeriModel test
+

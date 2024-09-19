@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/houlds/Documents/Vanier/courses_C_drive/old_program/247-503-VA_Integrated_Circuits_PLDs/projects/Basys2/Labs/template/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/houlds/Documents/Vanier/courses_C_drive/old_program/247-503-VA_Integrated_Circuits_PLDs/projects/Basys2/Labs/template/xst"
+elaborate
+-ifn test.prj
+-ifmt mixed

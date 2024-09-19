@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/test/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/test/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/test/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/test/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/test/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/test/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/lab_Intro_to_Basys2_/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+xst -intstyle ise -ifn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/Labs/lab_Intro_to_Basys2_/circuits_top.xst" -ofn "C:/serge/Vanier/courses/247-503-VA_Integrated_Circuits_PLDs/A15/projects/Basys2/Labs/lab_Intro_to_Basys2_/circuits_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SW0_LED0.ucf -p xc3s100e-cp132-4 circuits_top.ngc circuits_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o circuits_top_map.ncd circuits_top.ngd circuits_top.pcf 
+par -w -intstyle ise -ol high -t 1 circuits_top_map.ncd circuits_top.ncd circuits_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuits_top.twx circuits_top.ncd -o circuits_top.twr circuits_top.pcf -ucf SW0_LED0.ucf 
+bitgen -intstyle ise -f circuits_top.ut circuits_top.ncd 
+vhdtdtfi -lib work C:/Users/houlds/Documents/Vanier/courses_C_drive/old_program/247-503-VA_Integrated_Circuits_PLDs/projects/Basys2/Labs/template/test.v -lang verilog -prj test -o circuits_top.spl -module circuits_top -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e circuits_top.spl C:/Users/houlds/Documents/Vanier/courses_C_drive/old_program/247-503-VA_Integrated_Circuits_PLDs/projects/Basys2/Labs/template/circuits_top.sym 

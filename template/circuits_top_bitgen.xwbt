@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\serge\Vanier\courses\247-503-VA_Integrated_Circuits_PLDs\A15\projects\Basys2\Labs\lab_Intro_to_Basys2_\circuits_top.ncd
+OUTFILE=C:\serge\Vanier\courses\247-503-VA_Integrated_Circuits_PLDs\A15\projects\Basys2\Labs\lab_Intro_to_Basys2_\circuits_top.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\serge\Vanier\courses\247-503-VA_Integrated_Circuits_PLDs\A15\projects\Basys2\Labs\lab_Intro_to_Basys2_
+LICENSE=WebPack
+USER_INFO=211054025_0_0_859

@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+test instance_name (
+    .a1(a1), 
+    .a0(a0), 
+    .out1(out1)
+    );
+
+
